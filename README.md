@@ -1,13 +1,13 @@
 # Language-Translator
 Translates small domain-specific language (DSL) to C for execution
 
-#Overview
+# Overview
 
 This is a group project that I completed with one of my classmate, Luke Erlandson from CSIS3081W - Program Design and Development. The main goal of this project was to understand and fix existing project files and eventually add more functionality to it. While we changed most of the provided programs, the files that include my team’s original work are:
 
 [ast.cc](src/ast.cc), [scanner.cc](src/scanner.cc) , [matrix.cc](src/Matrix.cc) , [makefile](Makefile) and [all test files in tests folder](tests)
 
-In this project, we release 4 iteration versions throughout the semester and below are brief summary of the changes in each version:
+In this project, we released 4 iteration versions throughout the semester and below are brief summary of the changes in each version:
 
 For Iteration one: We identified any problem that was in the provded source code to avoid redundancy, unnecessary functions calls, remove any integer literals; hence to make the code robust. Once this part was done, we assigned regular expression (regex) to given tokens and made test cases to ensure all token were assigned with the correct regex. Then, the [scanner.cc](src/scanner.cc) file was created which utilizes the dictionary/map function.
 
