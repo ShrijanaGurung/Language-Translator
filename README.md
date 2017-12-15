@@ -5,7 +5,7 @@ Translates small domain-specific language (DSL) to C for execution
 
 This is a group project that I completed with one of my classmate, Luke Erlandson from CSIS3081W - Program Design and Development. The main goal of this project was to understand and fix existing project files and eventually add more functionality to it. While we changed most of the provided programs, the files that include my team’s original work are:
 
-[ast.cc](src/ast.cc), [scanner.cc](src/scanner.cc) , [matrix.cc](src/matrix.cc) , [makefile](makefile) and [all test files in tests folder](test)
+[ast.cc](src/ast.cc), [scanner.cc](src/scanner.cc) , [matrix.cc](src/Matrix.cc) , [makefile](Makefile) and [all test files in tests folder](tests)
 
 In this project, we release 4 iteration versions throughout the semester and below are brief summary of the changes in each version:
 
